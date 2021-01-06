@@ -1,0 +1,2 @@
+# bx.cleancomponent
+ Чистый компонент
