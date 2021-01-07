@@ -3,7 +3,7 @@ $arComponentDescription = array(
 	"NAME" => GetMessage("NAME"),
 	"DESCRIPTION" => GetMessage("DESCRIPTION"),
 	"PATH" => array(
-		"ID" => "gnvs_componentname",
+		"ID" => "fatnev_componentname",
 		"NAME" => GetMessage("NAME"),
 	),
 );
