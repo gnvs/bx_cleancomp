@@ -1,14 +1,14 @@
 <?
 IncludeModuleLangFile(__FILE__);
 
-Class fatnev_modulename extends CModule
+Class gnvs_modulename extends CModule
 {
 	//ID модуля
-	const MODULE_ID = 'fatnev.modulename';
-	var $MODULE_ID = 'fatnev.modulename';
+	const MODULE_ID = 'gnvs.modulename';
+	var $MODULE_ID = 'gnvs.modulename';
 
 	//Регистрация таблички
-	protected $tableName = 'fatnev_modulename';
+	protected $tableName = 'gnvs_modulename';
 
 	var $MODULE_VERSION;
 	var $MODULE_VERSION_DATE;
@@ -69,8 +69,8 @@ Class fatnev_modulename extends CModule
 
 	function UnInstallFiles()
 	{
-		if (is_dir($_SERVER['DOCUMENT_ROOT'].'/bitrix/components/fatnev/componentname/')) { 
-			\Bitrix\Main\IO\Directory::deleteDirectory($_SERVER['DOCUMENT_ROOT'].'/bitrix/components/fatnev/componentname/');
+		if (is_dir($_SERVER['DOCUMENT_ROOT'].'/bitrix/components/gnvs/componentname/')) { 
+			\Bitrix\Main\IO\Directory::deleteDirectory($_SERVER['DOCUMENT_ROOT'].'/bitrix/components/gnvs/componentname/');
 		}
 		return true;
 	}
